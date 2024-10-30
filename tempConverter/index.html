@@ -9,8 +9,11 @@
 <body>
     <form>
         <h1>Temperature Converter</h1>
-
-        <input type="number" id="textBox" value="0"><br>
+        
+        <div class="tempContainer">
+            <input type="number" id="textBox" value="0">
+            <button type="button" onclick="toResettext()" id="toReset">Reset</button>
+        </div>
 
         <input type="radio" id="toFahrenheit" name="unit">
         <label for="toFahrenheit">Celsius to Fahrenheit</label><br>
@@ -24,11 +27,5 @@
     </form>
 
     <script src="index.js"></script>
-
-    <!-- comment1 -->
-    <!-- comment2 -->
-    <!-- comment3 -->
-    <!-- comment4 -->
-    <!-- comment5 -->
 </body>
 </html>

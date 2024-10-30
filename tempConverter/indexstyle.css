@@ -15,13 +15,28 @@ form{
 }
 
 #textBox{
-    width: 60%;
+    width: 50%;
+    margin-right: 10px;
     text-align: center;
     font-size: 2em;
-    margin-bottom: 20px;
-    padding: 3px;
+    padding: 5px;
     border-radius: 5px;
     border: 2px solid hsla(0, 0%, 0%, 0.7);
+}
+
+#toReset{
+    font-size: 1.2em;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tempContainer{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 label{
@@ -29,7 +44,7 @@ label{
     font-weight: bold;
 }
  
-button{
+#toConvert{
     margin-top: 15px;
     background-color: hsla(180, 100%, 50%, 0.4);
     font-size: 1.2em;
@@ -38,10 +53,11 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+#toConvert:hover{
     background-color: hsla(180, 100%, 50%, 1);
 }
 
 p{
-    font-size: 1.3em;
+    font-size: 2em;
+    font-weight: bold;
 }

@@ -26,3 +26,10 @@ function convert(){
     }
 
 }
+
+// function to reset
+function toResettext(){
+    textBox.value = 0;
+    result.textContent = "";
+}
+
